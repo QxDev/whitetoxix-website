@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$pdo = new PDO('mysql:host=localhost;dbname=Netzwerk', 'root', 'jk12345');
+$pdo = new PDO('mysql:host=localhost;dbname=Netzwerk', 'root', '***');
  
 if(isset($_GET['login'])) {
     $username = $_POST['username'];
